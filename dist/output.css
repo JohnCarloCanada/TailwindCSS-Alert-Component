@@ -517,8 +517,8 @@ video {
   position: absolute;
 }
 
-.right-\[0\.5em\] {
-  right: 0.5em;
+.left-\[0\] {
+  left: 0;
 }
 
 .top-\[0\.5em\] {
@@ -541,22 +541,22 @@ video {
   width: 200px;
 }
 
-.translate-x-\[calc\(100\%\+8px\)\] {
-  --tw-translate-x: calc(100% + 8px);
+.translate-x-\[calc\(-100\%\)\] {
+  --tw-translate-x: calc(-100%);
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes showSlide {
   0% {
-    transform: translateX(100%+8px);
+    transform: translateX(-100%);
   }
 
   90% {
-    transform: translateX(-3%);
+    transform: translateX(10%);
   }
 
   100% {
-    transform: translateX(0%);
+    transform: translateX(5%);
   }
 }
 

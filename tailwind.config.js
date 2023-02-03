@@ -8,9 +8,9 @@ module.exports = {
     extend: {
       keyframes: {
         showSlide: {
-          "0%": { transform: "translateX(100%+8px)" },
-          "90%": { transform: "translateX(-3%)" },
-          "100%": { transform: "translateX(0%)" },
+          "0%": { transform: "translateX(-100%)" },
+          "90%": { transform: "translateX(10%)" },
+          "100%": { transform: "translateX(5%)" },
         },
       },
       animation: {
